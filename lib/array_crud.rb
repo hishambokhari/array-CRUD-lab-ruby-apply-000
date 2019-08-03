@@ -11,15 +11,15 @@ def add_element_to_end_of_array["toy","books","gym","car"]
 end
 
 def add_element_to_start_of_array(array, element)
-  add_element_to_start_of_array.unshift(element) 
+  add_element_to_start_of_array.unshift("four") 
 end
 
 def remove_element_from_end_of_array(array)
-  remove_element_from_end_of_array.pop(array)
+  remove_element_from_end_of_array.pop("four")
 end
 
 def remove_element_from_start_of_array(array)
-  remove_element_from_start_of_array.shift(array)
+  remove_element_from_start_of_array.shift("toy")
 end
 
 def retrieve_element_from_index(array, index_number)
